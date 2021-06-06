@@ -18,7 +18,6 @@ public class AddToCart extends Baseclass
 		pg.IncreaseQuantity();
 		utils.dropdown(pg.getSizedd(), p.getData("size"));
 		pg.selectPinkColor();
-		pg.AddToCart();
 		
 	}
 
